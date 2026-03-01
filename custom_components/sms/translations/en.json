@@ -40,7 +40,10 @@
                 "name": "Network name"
             },
             "status": {
-                "name": "Status"
+                "name": "Status",
+                "state": {
+                    "registered": "Registered"
+                }
             },
             "current_cellid": {
                 "name": "Cell ID"
@@ -50,11 +53,6 @@
             },
             "lac": {
                 "name": "Location Area Code"
-            }
-        },
-        "state": {
-            "status": {
-                "registered": "Registered"
             }
         }
     }
