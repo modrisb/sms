@@ -1,0 +1,48 @@
+{
+  "entity": {
+    "sensor": {
+      "rsrp": {
+        "default": "mdi:signal-cellular-outline",
+        "range": {
+          "-44": "mdi:signal-cellular-3",
+          "-80": "mdi:signal-cellular-2",
+          "-110": "mdi:signal-cellular-1",
+          "-140": "mdi:signal-cellular-outline"
+        }
+      },
+      "status": {
+        "default": "mdi:account-network-off",
+        "state": {
+          "registered": "mdi:account-network-outline"
+        }
+      },
+      "current_operator": {
+        "default": "mdi:folder-network-outline"
+      },
+      "current_cellid": {
+        "default": "mdi:radio-tower"
+      },
+      "lac": {
+        "default": "mdi:math-norm-box"
+      },
+      "rssi": {
+        "default": "mdi:wifi-strength-outline",
+        "range": {
+          "-60": "mdi:wifi-strength-4",
+          "-70": "mdi:wifi-strength-3",
+          "-80": "mdi:wifi-strength-2",
+          "-90": "mdi:wifi-strength-1"
+        }
+      },
+      "rsrq": {
+        "default": "mdi:signal-variant"
+      },
+      "sinr": {
+        "default": "mdi:signal-variant"
+      },
+      "iccid": {
+        "default": "mdi:integrated-circuit-chip"
+      }
+    }
+  }
+}

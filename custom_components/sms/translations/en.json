@@ -1,0 +1,61 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "SMS integartion is already configured",
+            "single_instance_allowed": "Already configured. Only a single configuration possible."
+        },
+        "error": {
+            "cannot_connect": "Failed to connect",
+            "pk_invalid": "RSA key invalid",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "RouterOS router",
+                    "port": "SSH port",
+                    "interface": "Modem interface",
+                    "private_key": "RSA pk",
+                    "channel": "Modem channel"
+                },
+                "title": "Connect to the router"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "rssi": {
+                "name": "Received Signal Strength Indicator"
+            },
+            "rsrp": {
+                "name": "Reference Signal Received Power"
+            },
+            "rsrq": {
+                "name": "Reference Signal Received Quality"
+            },
+            "sinr": {
+                "name": "Signal-to-Interference-plus-Noise Ratio"
+            },
+            "current_operator": {
+                "name": "Network name"
+            },
+            "status": {
+                "name": "Status"
+            },
+            "current_cellid": {
+                "name": "Cell ID"
+            },
+            "iccid": {
+                "name": "Integrated Circuit Card Identifier"
+            },
+            "lac": {
+                "name": "Location Area Code"
+            }
+        },
+        "state": {
+            "status": {
+                "registered": "Registered"
+            }
+        }
+    }
+}
